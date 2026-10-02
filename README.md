@@ -4,10 +4,6 @@ Fine-tuning the pre-trained **Helsinki-NLP MarianMT** model (`opus-mt-zh-en`) on
 
 **Best result: 21.72 test BLEU** (learning rate 5e-5, batch size 16, 3 epochs).
 
-<p align="center">
-  <img src="assets/training_curves.png" alt="Train loss, validation loss and validation BLEU over 3 epochs for the three experiments" width="900">
-</p>
-
 ---
 
 ## Pipeline
@@ -89,15 +85,4 @@ jupyter notebook nmt_marianmt_zh_en.ipynb
 ```
 ├── nmt_marianmt_zh_en.ipynb   # data prep, dataset, trainer, experiments, comparison
 ├── requirements.txt
-└── assets/
-    └── training_curves.png
 ```
-
-## Tech stack
-
-Python · PyTorch · Hugging Face Transformers (MarianMT) · sacreBLEU · pandas · Matplotlib
-
-## Acknowledgements
-
-- [Helsinki-NLP / OPUS-MT](https://huggingface.co/Helsinki-NLP/opus-mt-zh-en) for the pre-trained model
-- [OPUS OpenSubtitles](https://opus.nlpl.eu/) for the parallel corpus (P. Lison and J. Tiedemann, 2016)
