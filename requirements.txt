@@ -1,0 +1,11 @@
+torch
+transformers
+sentencepiece
+sacremoses
+sacrebleu
+requests
+tqdm
+numpy
+pandas
+matplotlib
+jupyter
